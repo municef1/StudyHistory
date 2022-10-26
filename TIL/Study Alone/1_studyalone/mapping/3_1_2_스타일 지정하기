@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+
+plt.plot([1, 2, 3, 4], [1, 4, 9, 16], 'ro') 
+# x, y 값 인자에 대해 선의 색상과 형태를 지정하는 포맷 문자열 (Format string)을 세번째 인자에 입력, 
+# 포맷 문자열 ‘ro’는 빨간색 (‘red’)의 원형 (‘o’) 마커를 의미 / b는 blue로 파란색으로 표현 가능! b-는 파란 실선!
+
+plt.axis([0, 6, 0, 20])
+#  axis() 함수를 이용해서 축의 범위 [xmin, xmax, ymin, ymax]를 지정
+
+plt.show()
